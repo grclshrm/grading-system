@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.background{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(school.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#content{
+    top: 50%;
+    left: 10%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #fff;  
+    border: 2px #fff;
+}
+
+#content h1{ 
+    font-size: 40px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    stroke: black;
+    stroke-width: 25%;
+}
+
+
+#content input{
+    height: 30px;
+    width: 60%;
+    margin-top: 10px;
+
+
+}
+
+#content label{
+    font-size: 15px;
+    text-align: 10px;
+}
+
+.btn {
+    outline: none;
+    border:rgba(253, 252, 252);
+    width: 50%;
+    height: 40px;
+    margin-left: 135px;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #40b7ee;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px solid #a4a38b;
+
+}
